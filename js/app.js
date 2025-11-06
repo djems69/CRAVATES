@@ -356,26 +356,17 @@ function loadAboutPage() {
       <div class="container">
         <div class="about-header">
           <h1 class="page-title">À Propos</h1>
-          <p class="page-subtitle">Votre histoire</p>
         </div>
         <div class="about-content">
           <div class="about-text">
             <p>
-              Bienvenue sur TANY COLLECTION, un espace dédié à la création unique et personnalisée.
+              Artiste peintre et portraitiste autodidacte, j'ai toujours rêvé de créer ma propre collection de vêtements. Aujourd'hui, ce rêve se concrétise avec Tany'Art. Pour commencer, je vous propose des cravates, des t-shirts et des sweats à capuche, chacun étant une œuvre d'art issue de mes toiles.
             </p>
             <p>
-              Chaque pièce que je crée est le fruit d'une passion pour l'art et le textile. 
-              Mes peintures originales prennent vie sur des t-shirts, des sweats à capuche 
-              et des cravates en soie, transformant chaque article en une œuvre d'art portative.
+              Mais ce n'est pas tout ! Vous aimez sortir du lot, avoir l'exclusivité et une pièce unique ? Je souhaite également créer une ligne de vêtements uniques, des pièces exclusives, un seul modèle de chaque, afin que chacun puisse se sentir spécial et unique grâce à mon art.
             </p>
             <p>
-              Que vous recherchiez une pièce unique ou une création disponible en plusieurs 
-              exemplaires, chaque article est conçu avec soin et attention aux détails, 
-              alliant qualité et esthétique.
-            </p>
-            <p>
-              Explorez ma collection et découvrez des créations qui reflètent votre personnalité 
-              et votre goût pour l'exceptionnel.
+              En tant que styliste autodidacte de ma propre collection, je sélectionne avec soin les tissus et les accessoires. La confection est confiée à une modéliste. Je vous invite à découvrir ma collection, qui sera prochainement enrichie de nouvelles créations ! Je serais ravie de vous compter parmi mes clients et de partager cette aventure créative avec vous !
             </p>
           </div>
           <div class="about-image">
