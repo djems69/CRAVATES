@@ -1,0 +1,87 @@
+// Données des produits
+const products = [
+  {
+    id: 1,
+    name: "T-shirt Peinture Floral",
+    category: "tshirts-sweats",
+    price: 45,
+    unique: false,
+    images: [
+      "images/tshirt1-1.jpg",
+      "images/tshirt1-2.jpg",
+      "images/tshirt1-3.jpg"
+    ],
+    description: "T-shirt en coton bio personnalisé avec une peinture florale unique.",
+    stock: {
+      "XS": 2,
+      "S": 5,
+      "M": 8,
+      "L": 6,
+      "XL": 3
+    }
+  },
+  {
+    id: 2,
+    name: "Sweat à Capuche Abstrait",
+    category: "tshirts-sweats",
+    price: 65,
+    unique: false,
+    images: [
+      "images/sweat1-1.jpg",
+      "images/sweat1-2.jpg"
+    ],
+    description: "Sweat à capuche confortable avec design abstrait original.",
+    stock: {
+      "S": 3,
+      "M": 4,
+      "L": 2,
+      "XL": 1
+    }
+  },
+  {
+    id: 3,
+    name: "Cravate Élégance Nocturne",
+    category: "cravates",
+    price: 85,
+    unique: true,
+    images: [
+      "images/cravate1-1.jpg",
+      "images/cravate1-2.jpg",
+      "images/cravate1-3.jpg",
+      "images/cravate1-4.jpg"
+    ],
+    description: "Cravate en soie unique avec peinture originale, pièce exclusive.",
+    stock: {
+      "Unique": 1
+    }
+  },
+  {
+    id: 4,
+    name: "Cravate Classique Moderne",
+    category: "cravates",
+    price: 75,
+    unique: false,
+    images: [
+      "images/cravate2-1.jpg",
+      "images/cravate2-2.jpg"
+    ],
+    description: "Cravate élégante avec motif contemporain, disponible en plusieurs exemplaires.",
+    stock: {
+      "Standard": 5
+    }
+  }
+];
+
+const categories = [
+  {
+    slug: "tshirts-sweats",
+    name: "T-shirts & Sweats à Capuche",
+    description: "Découvrez notre collection de t-shirts et sweats à capuche personnalisés"
+  },
+  {
+    slug: "cravates",
+    name: "Cravates",
+    description: "Cravates en soie uniques et personnalisées, pièces d'exception"
+  }
+];
+
