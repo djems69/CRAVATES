@@ -130,7 +130,7 @@ function loadHomePage() {
         <div class="categories-grid">
           <a href="categorie.html?cat=cravates" class="category-card">
             <div class="category-image">
-              <img src="images/category-cravates.jpg" alt="Cravates" />
+              <img src="images/colcravate.jpg" alt="Cravates" />
             </div>
             <div class="category-content">
               <h3>Cravates</h3>
@@ -140,7 +140,7 @@ function loadHomePage() {
 
           <a href="categorie.html?cat=tshirts-sweats" class="category-card">
             <div class="category-image">
-              <img src="images/category-tshirts.jpg" alt="T-shirts et Sweats" />
+              <img src="images/colsweat.jpg" alt="T-shirts et Sweats" />
             </div>
             <div class="category-content">
               <h3>T-shirts & Sweats à Capuche</h3>
