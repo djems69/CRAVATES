@@ -43,7 +43,7 @@ const products = [
     name: "Cravate noire effet satiné",
     category: "cravates",
     price: 40,
-    unique: true,
+    unique: false,
     images: [
       "images/cravate1-1.jpg",
       "images/cravate1-2.jpg",
@@ -56,13 +56,14 @@ const products = [
   },
   {
     id: 4,
-    name: "Cravate Classique Moderne",
+    name: "Cravate vert kaki effet satiné",
     category: "cravates",
-    price: 75,
+    price: 40,
     unique: false,
     images: [
       "images/cravate2-1.jpg",
-      "images/cravate2-2.jpg"
+      "images/cravate2-2.jpg",
+      "images/cravate2-3.jpg"
     ],
     description: "Cravate élégante avec motif contemporain, disponible en plusieurs exemplaires.",
     stock: {
