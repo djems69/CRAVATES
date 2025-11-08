@@ -254,6 +254,7 @@ main {
 
 .category-content {
   padding: 2rem;
+  text-align: center;
 }
 
 .category-content h3 {
@@ -334,6 +335,7 @@ main {
 
 .product-info {
   padding: 1.5rem;
+  text-align: center;
 }
 
 .product-name {
