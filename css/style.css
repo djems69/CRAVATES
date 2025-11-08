@@ -114,6 +114,29 @@ main {
   padding: 0 2rem;
 }
 
+/* Slogan Section */
+.slogan-section {
+  padding: 4rem 0 3rem;
+  background: white;
+  text-align: center;
+}
+
+.slogan {
+  font-family: 'Playfair Display', serif;
+  font-size: 3.5rem;
+  font-weight: 300;
+  color: #2c2c2c;
+  margin: 0;
+  letter-spacing: 3px;
+  line-height: 1.4;
+  font-style: italic;
+}
+
+.slogan br {
+  display: block;
+  margin: 0.5rem 0;
+}
+
 /* Banner */
 .banner {
   position: relative;
@@ -141,24 +164,6 @@ main {
   display: block;
 }
 
-.banner-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.1);
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-  padding-bottom: 3rem;
-}
-
-.banner-content {
-  text-align: center;
-  color: white;
-  padding: 2rem;
-}
 
 .btn {
   display: inline-block;
@@ -833,6 +838,12 @@ main {
     font-size: 1.3rem;
   }
 
+  .slogan {
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    padding: 0 1rem;
+  }
+
   .banner {
     min-height: 300px;
   }
@@ -843,6 +854,10 @@ main {
 
   .container {
     padding: 0 1.5rem;
+  }
+
+  .slogan-section {
+    padding: 3rem 0 2rem;
   }
 
   .section-title {

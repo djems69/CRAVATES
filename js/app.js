@@ -109,19 +109,17 @@ function loadHomePage() {
   if (!main) return;
   
   main.innerHTML = `
+    <!-- Slogan -->
+    <section class="slogan-section">
+      <div class="container">
+        <h1 class="slogan">Portez l'Art,<br>Devenez l'Oeuvre</h1>
+      </div>
+    </section>
+
     <!-- Bannière -->
     <section class="banner">
       <div class="banner-image">
-        <img src="images/banner.jpg" alt="Portez l'Art. Devenez l'Oeuvre. - TANY COLLECTION" />
-        <div class="banner-overlay">
-          <div class="banner-content">
-            <div class="banner-cta">
-              <a href="categorie.html?cat=tshirts-sweats" class="btn btn-primary">
-                Découvrir la collection
-              </a>
-            </div>
-          </div>
-        </div>
+        <img src="images/banner.jpg" alt="TANY COLLECTION" />
       </div>
     </section>
 
@@ -130,6 +128,16 @@ function loadHomePage() {
       <div class="container">
         <h2 class="section-title">Nos Collections</h2>
         <div class="categories-grid">
+          <a href="categorie.html?cat=cravates" class="category-card">
+            <div class="category-image">
+              <img src="images/category-cravates.jpg" alt="Cravates" />
+            </div>
+            <div class="category-content">
+              <h3>Cravates</h3>
+              <p>L'art au cou : Démarquez-vous avec une cravate née d'une toile de peinture Tany'Art</p>
+            </div>
+          </a>
+
           <a href="categorie.html?cat=tshirts-sweats" class="category-card">
             <div class="category-image">
               <img src="images/category-tshirts.jpg" alt="T-shirts et Sweats" />
@@ -137,16 +145,6 @@ function loadHomePage() {
             <div class="category-content">
               <h3>T-shirts & Sweats à Capuche</h3>
               <p>Découvrez notre collection de vêtements personnalisés</p>
-            </div>
-          </a>
-
-          <a href="categorie.html?cat=cravates" class="category-card">
-            <div class="category-image">
-              <img src="images/category-cravates.jpg" alt="Cravates" />
-            </div>
-            <div class="category-content">
-              <h3>Cravates</h3>
-              <p>Pièces d'exception en soie, uniques et élégantes</p>
             </div>
           </a>
         </div>
@@ -181,9 +179,9 @@ function loadHomePage() {
     
     const categoryImgs = main.querySelectorAll('.category-image img');
     categoryImgs.forEach((img, index) => {
-      const color = index === 0 ? '#d4e6f1' : '#e8d5c4';
-      const icon = index === 0 ? 'shirt' : 'image';
-      const text = index === 0 ? 'T-shirts & Sweats' : 'Cravates';
+      const color = index === 0 ? '#e8d5c4' : '#d4e6f1';
+      const icon = index === 0 ? 'image' : 'shirt';
+      const text = index === 0 ? 'Cravates' : 'T-shirts & Sweats';
       loadImageWithFallback(img, img.src, text, color, icon);
     });
   }, 100);
