@@ -40,17 +40,16 @@ const products = [
   },
   {
     id: 3,
-    name: "Cravate Élégance Nocturne",
+    name: "Cravate noire effet satiné",
     category: "cravates",
-    price: 85,
+    price: 40,
     unique: true,
     images: [
       "images/cravate1-1.jpg",
       "images/cravate1-2.jpg",
-      "images/cravate1-3.jpg",
-      "images/cravate1-4.jpg"
+      "images/cravate1-3.jpg"
     ],
-    description: "Cravate en soie unique avec peinture originale, pièce exclusive.",
+    description: "Cravate noire effet satiné, pièce unique avec peinture originale.",
     stock: {
       "Unique": 1
     }
@@ -68,6 +67,22 @@ const products = [
     description: "Cravate élégante avec motif contemporain, disponible en plusieurs exemplaires.",
     stock: {
       "Standard": 5
+    }
+  },
+  {
+    id: 5,
+    name: "Cravate vert kaki effet satiné",
+    category: "cravates",
+    price: 40,
+    unique: true,
+    images: [
+      "images/cravate3-1.jpg",
+      "images/cravate3-2.jpg",
+      "images/cravate3-3.jpg"
+    ],
+    description: "Cravate vert kaki effet satiné, pièce unique avec peinture originale.",
+    stock: {
+      "Unique": 1
     }
   }
 ];
