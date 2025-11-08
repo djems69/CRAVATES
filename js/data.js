@@ -84,6 +84,24 @@ const products = [
     stock: {
       "Unique": 1
     }
+  },
+  {
+    id: 6,
+    name: "Sweat à Capuche",
+    category: "tshirts-sweats",
+    price: 65,
+    unique: false,
+    images: [
+      "images/sweat2-1.jpg",
+      "images/sweat2-2.jpg"
+    ],
+    description: "Sweat à capuche personnalisé avec peinture originale.",
+    stock: {
+      "S": 3,
+      "M": 4,
+      "L": 2,
+      "XL": 1
+    }
   }
 ];
 
@@ -96,7 +114,7 @@ const categories = [
   {
     slug: "cravates",
     name: "Cravates",
-    description: "Cravates en soie uniques et personnalisées, pièces d'exception"
+    description: "L'art au cou : Démarquez-vous avec une cravate née d'une toile de peinture Tany'Art, ainsi que des modèles uniques ornés de bijoux et accessoires pour un style audacieux et personnalisé."
   }
 ];
 
