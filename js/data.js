@@ -110,7 +110,7 @@ const categories = [
   {
     slug: "tshirts-sweats",
     name: "T-shirts & Sweats à Capuche",
-    description: "Découvrez notre collection de t-shirts et sweats à capuche personnalisés"
+    description: "Artiste peintre et portraitiste autodidacte, j'ai toujours rêvé de créer ma propre collection de vêtements. Aujourd'hui, ce rêve se concrétise avec Tany'Art. Pour commencer, je vous propose des cravates, des t-shirts et des sweats à capuche, chacun étant une œuvre d'art issue de mes toiles. Mais ce n'est pas tout ! Vous aimez sortir du lot, avoir l'exclusivité et une pièce unique ? Je souhaite également créer une ligne de vêtements uniques, des pièces exclusives, un seul modèle de chaque, afin que chacun puisse se sentir spécial et unique grâce à mon art. En tant que styliste autodidacte de ma propre collection, je sélectionne avec soin les tissus et les accessoires. La confection est confiée à une modéliste. Je vous invite à découvrir ma collection, qui sera prochainement enrichie de nouvelles créations ! Je serais ravie de vous compter parmi mes clients et de partager cette aventure créative avec vous !"
   },
   {
     slug: "cravates",

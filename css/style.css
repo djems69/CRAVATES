@@ -125,11 +125,11 @@ main {
   font-family: 'Playfair Display', serif;
   font-size: 2.2rem;
   font-weight: 300;
-  color: #2c2c2c;
+  color: #555555;
   margin: 0;
   letter-spacing: 2px;
   line-height: 1.5;
-  font-style: italic;
+  font-style: normal;
 }
 
 .slogan br {
