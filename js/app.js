@@ -112,7 +112,7 @@ function loadHomePage() {
     <!-- Slogan -->
     <section class="slogan-section">
       <div class="container">
-        <h1 class="slogan">Portez l'Art,<br>Devenez l'Oeuvre</h1>
+        <h1 class="slogan">Portez l'Art,<br>Devenez l'Oeuvre.</h1>
       </div>
     </section>
 

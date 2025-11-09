@@ -28,7 +28,8 @@ const products = [
     unique: false,
     images: [
       "images/sweat1-2.jpg",
-      "images/sweat1-1.jpg"
+      "images/sweat1-1.jpg",
+      "images/sweat1-3.jpg"
     ],
     description: "Sweat à capuche confortable avec design abstrait original.",
     stock: {
@@ -72,7 +73,7 @@ const products = [
   },
   {
     id: 5,
-    name: "Cravate vert kaki effet satiné",
+    name: "Cravate Tany'Art noir effet satiné",
     category: "cravates",
     price: 40,
     unique: true,
@@ -80,6 +81,38 @@ const products = [
       "images/cravate3-1.jpg",
       "images/cravate3-2.jpg",
       "images/cravate3-3.jpg"
+    ],
+    description: "Cravate vert kaki effet satiné, pièce unique avec peinture originale.",
+    stock: {
+      "Unique": 1
+    }
+  },
+  {
+    id: 7,
+    name: "Cravate bleu marine effet satiné",
+    category: "cravates",
+    price: 40,
+    unique: true,
+    images: [
+      "images/cravate4-1.jpg",
+      "images/cravate4-2.jpg",
+      "images/cravate4-3.jpg"
+    ],
+    description: "Cravate vert kaki effet satiné, pièce unique avec peinture originale.",
+    stock: {
+      "Unique": 1
+    }
+  },
+  {
+    id: 8,
+    name: "Cravate Tany'Art effet satiné",
+    category: "cravates",
+    price: 50,
+    unique: true,
+    images: [
+      "images/cravate5-1.jpg",
+      "images/cravate5-2.jpg",
+      "images/cravate5-3.jpg"
     ],
     description: "Cravate vert kaki effet satiné, pièce unique avec peinture originale.",
     stock: {
