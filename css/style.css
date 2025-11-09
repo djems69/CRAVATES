@@ -123,12 +123,12 @@ main {
 
 .slogan {
   font-family: 'Playfair Display', serif;
-  font-size: 3.5rem;
+  font-size: 2.2rem;
   font-weight: 300;
   color: #2c2c2c;
   margin: 0;
-  letter-spacing: 3px;
-  line-height: 1.4;
+  letter-spacing: 2px;
+  line-height: 1.5;
   font-style: italic;
 }
 
@@ -839,8 +839,8 @@ main {
   }
 
   .slogan {
-    font-size: 2.5rem;
-    letter-spacing: 2px;
+    font-size: 1.8rem;
+    letter-spacing: 1.5px;
     padding: 0 1rem;
   }
 

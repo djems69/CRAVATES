@@ -27,8 +27,8 @@ const products = [
     price: 65,
     unique: false,
     images: [
-      "images/sweat1-1.jpg",
-      "images/sweat1-2.jpg"
+      "images/sweat1-2.jpg",
+      "images/sweat1-1.jpg"
     ],
     description: "Sweat à capuche confortable avec design abstrait original.",
     stock: {
