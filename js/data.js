@@ -50,7 +50,7 @@ const products = [
       "images/cravate1-2.jpg",
       "images/cravate1-3.jpg"
     ],
-    description: "Cravate noire<br>effet satiné, pièce unique avec peinture originale.",
+    description: "Cravate noire effet satiné, pièce unique avec peinture originale.",
     stock: {
       "Unique": 1
     }
