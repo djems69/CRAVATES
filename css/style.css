@@ -241,22 +241,15 @@ main {
 
 .category-image {
   width: 100%;
-  min-height: 300px;
+  height: 300px;
   overflow: hidden;
   position: relative;
-  background: #f5f5f5;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .category-image img {
   width: 100%;
-  height: auto;
-  max-height: 500px;
-  object-fit: contain;
-  object-position: center;
-  display: block;
+  height: 100%;
+  object-fit: cover;
   transition: transform 0.3s ease;
 }
 
