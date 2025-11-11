@@ -447,6 +447,10 @@ main {
   display: flex;
   gap: 0.5rem;
   flex-wrap: wrap;
+  margin-top: 1rem;
+  width: 100%;
+  max-width: 100%;
+  overflow: visible;
 }
 
 .thumbnail {
