@@ -138,6 +138,24 @@ const products = [
     }
   },
   {
+    id: 10,
+    name: "Cravate Tany'Art effet satiné",
+    category: "cravates",
+    price: 50,
+    unique: true,
+    images: [
+      "images/cravate7-1.jpg",
+      "images/cravate7-2.jpg",
+      "images/cravate7-3.jpg",
+      "images/cravate7-4.jpg",
+      "images/cravate7-5.jpg"
+    ],
+    description: "Cravate vert kaki effet satiné, pièce unique avec peinture originale.",
+    stock: {
+      "Unique": 1
+    }
+  },
+  {
     id: 6,
     name: "Sweat à Capuche",
     category: "tshirts-sweats",
