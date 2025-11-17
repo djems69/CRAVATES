@@ -396,7 +396,7 @@ function loadContactPage() {
           <p class="page-subtitle">N'hésitez pas à nous contacter pour toute question</p>
         </div>
         <div class="contact-content">
-          <form class="contact-form" id="contactForm">
+          <form class="contact-form" id="contactForm" method="POST">
             <div class="form-group">
               <label for="name">Nom *</label>
               <input type="text" id="name" name="name" required placeholder="Votre nom" />
@@ -441,21 +441,40 @@ function loadContactPage() {
   const statusDiv = document.getElementById('submitStatus');
   
   if (form) {
-    form.addEventListener('submit', function(e) {
+    form.addEventListener('submit', async function(e) {
       e.preventDefault();
-      
-      const formData = new FormData(form);
-      const mailtoLink = `mailto:votre-email@exemple.com?subject=${encodeURIComponent(formData.get('subject'))}&body=${encodeURIComponent(
-        `Nom: ${formData.get('name')}\nEmail: ${formData.get('email')}\nProduit: ${formData.get('product') || 'N/A'}\n\nMessage:\n${formData.get('message')}`
-      )}`;
-      
-      window.location.href = mailtoLink;
-      
       if (statusDiv) {
-        statusDiv.className = 'submit-status success';
-        statusDiv.textContent = 'Merci pour votre message ! Votre client email s\'est ouvert.';
-        form.reset();
-        
+        statusDiv.className = '';
+        statusDiv.textContent = 'Envoi en cours...';
+      }
+
+      const formData = new FormData(form);
+
+      try {
+        const response = await fetch('contact.php', {
+          method: 'POST',
+          body: formData
+        });
+
+        const result = await response.json();
+
+        if (response.ok && result.success) {
+          if (statusDiv) {
+            statusDiv.className = 'submit-status success';
+            statusDiv.textContent = result.message || 'Merci pour votre message !';
+          }
+          form.reset();
+        } else {
+          throw new Error(result.message || 'Erreur lors de l\'envoi du message.');
+        }
+      } catch (error) {
+        if (statusDiv) {
+          statusDiv.className = 'submit-status error';
+          statusDiv.textContent = error.message || 'Une erreur est survenue. Veuillez réessayer plus tard.';
+        }
+      }
+
+      if (statusDiv) {
         setTimeout(() => {
           statusDiv.textContent = '';
           statusDiv.className = '';
