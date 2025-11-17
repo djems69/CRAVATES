@@ -144,7 +144,7 @@ function loadHomePage() {
             </div>
             <div class="category-content">
               <h3>T-shirts & Sweats à Capuche</h3>
-              <p>Découvrez notre collection de vêtements personnalisés</p>
+              <p>Quand l'art se fait vêtement : découvrez nos sweats à capuche avec flocage d'une oeuvre originale au dos ainsi que nos t-shirts floqués a l'avant. L'alliance du confort et de l'art pour un style qui ne passe pas inaperçu.</p>
             </div>
           </a>
         </div>
