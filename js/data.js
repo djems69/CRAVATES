@@ -41,7 +41,7 @@ const products = [
   },
   {
     id: 3,
-    name: "Cravate noire<br>effet satiné",
+    name: "Cravate noire effet satiné",
     category: "cravates",
     price: 40,
     unique: false,
