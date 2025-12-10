@@ -13,7 +13,7 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
 }
 
 // Adresse email de réception – à personnaliser
-$recipient = 'votre-email@exemple.com';
+$recipient = 'tanyaartiste@gmail.com';
 
 $name    = trim($_POST['name'] ?? '');
 $email   = trim($_POST['email'] ?? '');

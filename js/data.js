@@ -2,22 +2,97 @@
 const products = [
   {
     id: 1,
-    name: "T-shirt Peinture Floral",
+    name: "T-shirt Tany'Art noir",
     category: "tshirts-sweats",
-    price: 45,
+    price: 30,
     unique: false,
     images: [
       "images/tshirt1-1.jpg",
-      "images/tshirt1-2.jpg",
-      "images/tshirt1-3.jpg"
+      "images/tshirt1-2.jpg"
     ],
-    description: "T-shirt en coton bio personnalisé avec une peinture florale unique.",
+    description: "T-shirt floqué d'une oeuvre originale de l'artiste.",
     stock: {
-      "XS": 2,
+      "XS": 0,
+      "S": 0,
+      "M": 0,
+      "L": 0,
+      "XL": 0
+    }
+  },
+  {
+    id: 21,
+    name: "T-shirt Tany'Art noir(2)",
+    category: "tshirts-sweats",
+    price: 30,
+    unique: false,
+    images: [
+      "images/tshirt2-1.jpg",
+      "images/tshirt2-2.jpg"
+    ],
+    description: "T-shirt floqué d'une oeuvre originale de l'artiste.",
+    stock: {
+      "XS": 0,
       "S": 5,
-      "M": 8,
-      "L": 6,
-      "XL": 3
+      "M": 0,
+      "L": 0,
+      "XL": 0
+    }
+  },
+  {
+    id: 22,
+    name: "T-shirt Tany'Art blanc",
+    category: "tshirts-sweats",
+    price: 30,
+    unique: false,
+    images: [
+      "images/tshirt3-1.jpg",
+      "images/tshirt2-2.jpg"
+    ],
+    description: "T-shirt floqué d'une oeuvre originale de l'artiste.",
+    stock: {
+      "XS": 0,
+      "S": 0,
+      "M": 0,
+      "L": 5,
+      "XL": 0
+    }
+  },
+  {
+    id: 23,
+    name: "T-shirt Tany'Art noir(3)",
+    category: "tshirts-sweats",
+    price: 30,
+    unique: false,
+    images: [
+      "images/tshirt4-1.jpg",
+      "images/tshirt4-2.jpg"
+    ],
+    description: "T-shirt floqué d'une oeuvre originale de l'artiste.",
+    stock: {
+      "XS": 0,
+      "S": 0,
+      "M": 0,
+      "L": 5,
+      "XL": 0
+    }
+  },
+  {
+    id: 24,
+    name: "T-shirt Tany'Art noir(4)",
+    category: "tshirts-sweats",
+    price: 30,
+    unique: false,
+    images: [
+      "images/tshirt5-1.jpg",
+      "images/tshirt5-2.jpg"
+    ],
+    description: "T-shirt floqué d'une oeuvre originale de l'artiste.",
+    stock: {
+      "XS": 0,
+      "S": 5,
+      "M": 0,
+      "L": 0,
+      "XL": 0
     }
   },
   {
