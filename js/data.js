@@ -83,8 +83,43 @@ const products = [
     price: 30,
     unique: false,
     images: [
-      "images/tshirt5-1.jpg",
-      "images/tshirt5-2.jpg"
+      "images/tshirt5-1.jpg"
+    ],
+    description: "T-shirt floqué d'une oeuvre originale de l'artiste.",
+    stock: {
+      "XS": 0,
+      "S": 5,
+      "M": 0,
+      "L": 0,
+      "XL": 0
+    }
+  },
+  {
+    id: 25,
+    name: "T-shirt Tany'Art noir(5)",
+    category: "tshirts-sweats",
+    price: 30,
+    unique: false,
+    images: [
+      "images/tshirt6-1.jpg"
+    ],
+    description: "T-shirt floqué d'une oeuvre originale de l'artiste.",
+    stock: {
+      "XS": 0,
+      "S": 5,
+      "M": 0,
+      "L": 0,
+      "XL": 0
+    }
+  },
+  {
+    id: 24,
+    name: "T-shirt Tany'Art rose",
+    category: "tshirts-sweats",
+    price: 30,
+    unique: false,
+    images: [
+      "images/tshirt7-1.jpg"
     ],
     description: "T-shirt floqué d'une oeuvre originale de l'artiste.",
     stock: {
