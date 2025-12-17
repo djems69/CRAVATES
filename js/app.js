@@ -128,6 +128,16 @@ function loadHomePage() {
       <div class="container">
         <h2 class="section-title">Nos Collections</h2>
         <div class="categories-grid">
+          <a href="categorie.html?cat=pieces-uniques" class="category-card">
+            <div class="category-image">
+              <img src="images/banner.jpg" alt="Pieces Uniques" />
+            </div>
+            <div class="category-content">
+              <h3>Pieces Uniques</h3>
+              <p>Des créations exclusives et uniques, chacune portant la signature artistique de Tany'Art.</p>
+            </div>
+          </a>
+
           <a href="categorie.html?cat=cravates" class="category-card">
             <div class="category-image">
               <img src="images/colcravate.jpg" alt="Cravates" />

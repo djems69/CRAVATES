@@ -15,7 +15,7 @@ const products = [
       "XS": 0,
       "S": 0,
       "M": 0,
-      "L": 0,
+      "L": 1,
       "XL": 0
     }
   },
@@ -32,9 +32,9 @@ const products = [
     description: "T-shirt floqué d'une oeuvre originale de l'artiste.",
     stock: {
       "XS": 0,
-      "S": 5,
+      "S": 0,
       "M": 0,
-      "L": 0,
+      "L": 1,
       "XL": 0
     }
   },
@@ -88,7 +88,7 @@ const products = [
     description: "T-shirt floqué d'une oeuvre originale de l'artiste.",
     stock: {
       "XS": 0,
-      "S": 5,
+      "S": 1,
       "M": 0,
       "L": 0,
       "XL": 0
@@ -106,14 +106,14 @@ const products = [
     description: "T-shirt floqué d'une oeuvre originale de l'artiste.",
     stock: {
       "XS": 0,
-      "S": 5,
+      "S": 0,
       "M": 0,
-      "L": 0,
+      "L": 1,
       "XL": 0
     }
   },
   {
-    id: 24,
+    id: 26,
     name: "T-shirt Tany'Art rose",
     category: "tshirts-sweats",
     price: 30,
@@ -124,7 +124,7 @@ const products = [
     description: "T-shirt floqué d'une oeuvre originale de l'artiste.",
     stock: {
       "XS": 0,
-      "S": 5,
+      "S": 0,
       "M": 0,
       "L": 0,
       "XL": 0
@@ -134,7 +134,7 @@ const products = [
     id: 2,
     name: "Sweat à Capuche Abstrait",
     category: "tshirts-sweats",
-    price: 65,
+    price: 35,
     unique: false,
     images: [
       "images/sweat1-2.jpg",
@@ -186,7 +186,7 @@ const products = [
     name: "Cravate Tany'Art noir effet satiné",
     category: "cravates",
     price: 40,
-    unique: true,
+    unique: false,
     images: [
       "images/cravate3-1.jpg",
       "images/cravate3-2.jpg",
@@ -194,7 +194,7 @@ const products = [
     ],
     description: "Cravate vert kaki effet satiné, pièce unique avec peinture originale.",
     stock: {
-      "Unique": 1
+      "Standard": 1
     }
   },
   {
@@ -202,7 +202,7 @@ const products = [
     name: "Cravate bleu marine effet satiné",
     category: "cravates",
     price: 40,
-    unique: true,
+    unique: false,
     images: [
       "images/cravate4-1.jpg",
       "images/cravate4-2.jpg",
@@ -210,7 +210,7 @@ const products = [
     ],
     description: "Cravate vert kaki effet satiné, pièce unique avec peinture originale.",
     stock: {
-      "Unique": 1
+      "Standard": 1
     }
   },
   {
@@ -218,7 +218,7 @@ const products = [
     name: "Cravate Tany'Art effet satiné",
     category: "cravates",
     price: 50,
-    unique: true,
+    unique: false,
     images: [
       "images/cravate5-1.jpg",
       "images/cravate5-2.jpg",
@@ -227,15 +227,15 @@ const products = [
     ],
     description: "Cravate vert kaki effet satiné, pièce unique avec peinture originale.",
     stock: {
-      "Unique": 1
+      "Standard": 1
     }
   },
   {
     id: 9,
     name: "Cravate Tany'Art effet satiné",
     category: "cravates",
-    price: 50,
-    unique: true,
+    price: 40,
+    unique: false,
     images: [
       "images/cravate6-1.jpg",
       "images/cravate6-2.jpg",
@@ -244,7 +244,7 @@ const products = [
     ],
     description: "Cravate vert kaki effet satiné, pièce unique avec peinture originale.",
     stock: {
-      "Unique": 1
+      "Standard": 1
     }
   },
   {
@@ -252,7 +252,7 @@ const products = [
     name: "Cravate Tany'Art effet satiné",
     category: "cravates",
     price: 50,
-    unique: true,
+    unique: false,
     images: [
       "images/cravate7-1.jpg",
       "images/cravate7-2.jpg",
@@ -260,7 +260,7 @@ const products = [
     ],
     description: "Cravate vert kaki effet satiné, pièce unique avec peinture originale.",
     stock: {
-      "Unique": 1
+      "Standard": 1
     }
   },
   {
@@ -268,7 +268,7 @@ const products = [
     name: "Cravate Tany'Art effet satiné",
     category: "cravates",
     price: 50,
-    unique: true,
+    unique: false,
     images: [
       "images/cravate8-1.jpg",
       "images/cravate8-2.jpg",
@@ -276,27 +276,9 @@ const products = [
     ],
     description: "Cravate vert kaki effet satiné, pièce unique avec peinture originale.",
     stock: {
-      "Unique": 1
+      "Standard": 1
     }
   },
-  {
-    id: 6,
-    name: "Sweat à Capuche",
-    category: "tshirts-sweats",
-    price: 65,
-    unique: false,
-    images: [
-      "images/sweat2-1.jpg",
-      "images/sweat2-2.jpg"
-    ],
-    description: "Sweat à capuche personnalisé avec peinture originale.",
-    stock: {
-      "S": 3,
-      "M": 4,
-      "L": 2,
-      "XL": 1
-    }
-  }
 ];
 
 const categories = [
@@ -309,6 +291,11 @@ const categories = [
     slug: "cravates",
     name: "Cravates",
     description: "L'art au cou : Démarquez-vous avec une cravate née d'une toile de peinture Tany'Art, ainsi que des modèles uniques ornés de bijoux et accessoires pour un style audacieux et personnalisé."
+  },
+  {
+    slug: "pieces-uniques",
+    name: "Pieces Uniques",
+    description: "Des créations exclusives et uniques, chacune portant la signature artistique de Tany'Art."
   }
 ];
 
