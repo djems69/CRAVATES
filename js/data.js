@@ -15,13 +15,13 @@ const products = [
       "XS": 0,
       "S": 0,
       "M": 0,
-      "L": 1,
+      "L": 0,
       "XL": 0
     }
   },
   {
     id: 21,
-    name: "T-shirt Tany'Art noir(2)",
+    name: "T-shirt Tany'Art noir",
     category: "tshirts-sweats",
     price: 30,
     unique: false,
@@ -32,9 +32,9 @@ const products = [
     description: "T-shirt floqué d'une oeuvre originale de l'artiste.",
     stock: {
       "XS": 0,
-      "S": 0,
+      "S": 1,
       "M": 0,
-      "L": 1,
+      "L": 0,
       "XL": 0
     }
   },
@@ -53,13 +53,13 @@ const products = [
       "XS": 0,
       "S": 0,
       "M": 0,
-      "L": 5,
+      "L": 1,
       "XL": 0
     }
   },
   {
     id: 23,
-    name: "T-shirt Tany'Art noir(3)",
+    name: "T-shirt Tany'Art noir",
     category: "tshirts-sweats",
     price: 30,
     unique: false,
@@ -72,13 +72,13 @@ const products = [
       "XS": 0,
       "S": 0,
       "M": 0,
-      "L": 5,
+      "L": 1,
       "XL": 0
     }
   },
   {
     id: 24,
-    name: "T-shirt Tany'Art noir(4)",
+    name: "T-shirt Tany'Art noir",
     category: "tshirts-sweats",
     price: 30,
     unique: false,
@@ -88,15 +88,15 @@ const products = [
     description: "T-shirt floqué d'une oeuvre originale de l'artiste.",
     stock: {
       "XS": 0,
-      "S": 1,
+      "S": 0,
       "M": 0,
-      "L": 0,
+      "L": 1,
       "XL": 0
     }
   },
   {
     id: 25,
-    name: "T-shirt Tany'Art noir(5)",
+    name: "T-shirt Tany'Art noir",
     category: "tshirts-sweats",
     price: 30,
     unique: false,
@@ -108,7 +108,7 @@ const products = [
       "XS": 0,
       "S": 0,
       "M": 0,
-      "L": 1,
+      "L": 0,
       "XL": 0
     }
   },
@@ -134,7 +134,7 @@ const products = [
     id: 2,
     name: "Sweat à Capuche Abstrait",
     category: "tshirts-sweats",
-    price: 35,
+    price: 45,
     unique: false,
     images: [
       "images/sweat1-2.jpg",
@@ -143,10 +143,10 @@ const products = [
     ],
     description: "Sweat à capuche confortable avec design abstrait original.",
     stock: {
-      "S": 3,
-      "M": 4,
-      "L": 2,
-      "XL": 1
+      "S": 0,
+      "M": 0,
+      "L": 0,
+      "XL": 0
     }
   },
   {
@@ -227,7 +227,7 @@ const products = [
     ],
     description: "Cravate vert kaki effet satiné, pièce unique avec peinture originale.",
     stock: {
-      "Standard": 1
+      "Standard": 3
     }
   },
   {
