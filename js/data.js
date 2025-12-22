@@ -279,6 +279,60 @@ const products = [
       "Standard": 1
     }
   },
+  {
+    id: 30,
+    name: "Blazer modèle unique avec coupe asymetrique",
+    category: "pieces-uniques",
+    price: 120,
+    unique: true,
+    images: [
+      "images/unique1-1.jpg",
+      "images/unique1-2.jpg",
+      "images/unique1-3.jpg",
+      "images/unique1-4.jpg",
+      "images/unique1-5.jpg"
+    ],
+    description: "Ce blazer a été pensé pour vous offrir une allure a la fois sophistiquée et audacieuse. Conçu pour celles qui aiment se démarquer.",
+    stock: {
+      "Unique": 1,
+      "M" : 1
+    }
+  },
+  {
+    id: 31,
+    name: "Sublime robe de soirée longue. Modèle unique au design moderne et audacieux",
+    category: "pieces-uniques",
+    price: 90,
+    unique: true,
+    images: [
+      "images/unique2-1.jpg",
+      "images/unique2-2.jpg",
+      "images/unique2-3.jpg"
+    ],
+    description: "Sa coupe asymétrique et ses jeux de matières apportent une allure élégante, glamour et résolument chic. Coupe près du corps qui sublime la silouhette. Détails brillants raffinés. Style haute élégance. Idéal pour une soirée d'exception! Une robe rare et unique, parfaite pour un gala, une cérémonie, un évènement chic ou une soirée habillée. Elle attire le regard et garantie une allure élégante et raffinée.",
+    stock: {
+      "Unique": 1,
+      "M": 1
+    }
+  },
+  {
+    id: 32,
+    name: "Sublime robe de soirée longue modèle unique",
+    category: "pieces-uniques",
+    price: 300,
+    unique: true,
+    images: [
+      "images/unique3-1.jpg",
+      "images/unique3-2.jpg",
+      "images/unique3-3.jpg",
+      "images/unique3-4.jpg",
+      "images/unique3-5.jpg"
+    ],
+    description: "Idéal pour un Evénement Chic, mariage, gala ,soirée élégante ou cérémonie. Sa coupe près du corps met parfaitement la silhouette en valeur, tandis que les détails raffinés apportent une touche de Glamour et d'Originalité. Décolleté travaillé avec transparence délicate. Dos élégant et sophistiqué. Détails brillants et finitions soignées. Tissu  agréable à porter. Une Robe Rare et Unique que vous ne verrez sur personne d'autre ! Parfaite pour se démarquer avec classe et assurance !",
+    stock: {
+      "Unique": 0,
+    }
+  },
 ];
 
 const categories = [

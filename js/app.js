@@ -130,7 +130,7 @@ function loadHomePage() {
         <div class="categories-grid">
           <a href="categorie.html?cat=pieces-uniques" class="category-card">
             <div class="category-image">
-              <img src="images/banner.jpg" alt="Pieces Uniques" />
+              <img src="images/unique.jpg" alt="Pieces Uniques" />
             </div>
             <div class="category-content">
               <h3>Pieces Uniques</h3>
