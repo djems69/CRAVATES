@@ -292,15 +292,14 @@ const products = [
       "images/unique1-4.jpg",
       "images/unique1-5.jpg"
     ],
-    description: "Ce blazer a été pensé pour vous offrir une allure a la fois sophistiquée et audacieuse. Conçu pour celles qui aiment se démarquer.",
+    description: "Ce blazer a été pensé pour vous offrir une allure a la fois sophistiquée et audacieuse. Conçu pour celles qui aiment se démarquer. Taille 38",
     stock: {
-      "Unique": 1,
-      "M" : 1
+      "Unique": 1
     }
   },
   {
     id: 31,
-    name: "Sublime robe de soirée longue. Modèle unique au design moderne et audacieux",
+    name: "Sublime robe de soirée longue",
     category: "pieces-uniques",
     price: 90,
     unique: true,
@@ -309,10 +308,9 @@ const products = [
       "images/unique2-2.jpg",
       "images/unique2-3.jpg"
     ],
-    description: "Sa coupe asymétrique et ses jeux de matières apportent une allure élégante, glamour et résolument chic. Coupe près du corps qui sublime la silouhette. Détails brillants raffinés. Style haute élégance. Idéal pour une soirée d'exception! Une robe rare et unique, parfaite pour un gala, une cérémonie, un évènement chic ou une soirée habillée. Elle attire le regard et garantie une allure élégante et raffinée.",
+    description: "Modèle unique au design moderne et audacieux. Sa coupe asymétrique et ses jeux de matières apportent une allure élégante, glamour et résolument chic. Coupe près du corps qui sublime la silouhette. Détails brillants raffinés. Style haute élégance. Idéal pour une soirée d'exception! Une robe rare et unique, parfaite pour un gala, une cérémonie, un évènement chic ou une soirée habillée. Elle attire le regard et garantie une allure élégante et raffinée. Taille 38",
     stock: {
-      "Unique": 1,
-      "M": 1
+      "Unique": 1
     }
   },
   {
