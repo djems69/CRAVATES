@@ -280,7 +280,7 @@ const products = [
     }
   },
   {
-    id: 30,
+    id: 34,
     name: "Blazer modèle unique avec coupe asymetrique",
     category: "pieces-uniques",
     price: 120,
@@ -314,7 +314,7 @@ const products = [
     }
   },
   {
-    id: 32,
+    id: 30,
     name: "Sublime robe de soirée longue modèle unique",
     category: "pieces-uniques",
     price: 300,
@@ -329,6 +329,38 @@ const products = [
     description: "Idéal pour un Evénement Chic, mariage, gala ,soirée élégante ou cérémonie. Sa coupe près du corps met parfaitement la silhouette en valeur, tandis que les détails raffinés apportent une touche de Glamour et d'Originalité. Décolleté travaillé avec transparence délicate. Dos élégant et sophistiqué. Détails brillants et finitions soignées. Tissu  agréable à porter. Une Robe Rare et Unique que vous ne verrez sur personne d'autre ! Parfaite pour se démarquer avec classe et assurance !",
     stock: {
       "Unique": 0,
+    }
+  },
+  {
+    id: 32,
+    name: "Blazer noir asymétrique exceptionnel!",
+    category: "pieces-uniques",
+    price: 90,
+    unique: true,
+    images: [
+      "images/unique4-1.jpg",
+      "images/unique4-2.jpg",
+      "images/unique4-3.jpg"
+    ],
+    description: "Les épaulettes structurées affirment votre allure avec élégance. Ornée de franges argentées scintillantes à une épaule et d'une broche décorative raffinée sur la poitrine. Fabriqué à partir de matériaux de haute qualité. Ne passez pas à coté de cette pièce d'exception qui sublime votre garde-robe!",
+    stock: {
+      "Unique": 0
+    }
+  },
+  {
+    id: 33,
+    name: "Blazer miroir",
+    category: "pieces-uniques",
+    price: 90,
+    unique: true,
+    images: [
+      "images/unique5-1.jpg",
+      "images/unique5-2.jpg",
+      "images/unique5-3.jpg"
+    ],
+    description: "Osez l'éclat avec ce blazer unique en son genre. Ce blazer noir élégant est réhaussé d'une manche ornée de triangles de miroirs scintillants, capturant la lumière et les regards à chaque mouvement. Un blazer noir en velours, classique, revisité avec une touche d'audace. Les triangles de miroirs sont soigneusement disposés sur une seule manche pour un effet spectaculaire! Pièce de collection : un vetement rare qui ne manquera pas de faire tourner les tetes!",
+    stock: {  
+      "Unique": 0
     }
   },
 ];
