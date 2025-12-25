@@ -283,7 +283,7 @@ const products = [
     id: 34,
     name: "Blazer modèle unique avec coupe asymetrique",
     category: "pieces-uniques",
-    price: 120,
+    price: 90,
     unique: true,
     images: [
       "images/unique1-1.jpg",
@@ -335,7 +335,7 @@ const products = [
     id: 32,
     name: "Blazer noir asymétrique exceptionnel!",
     category: "pieces-uniques",
-    price: 90,
+    price: 150,
     unique: true,
     images: [
       "images/unique4-1.jpg",
@@ -351,7 +351,7 @@ const products = [
     id: 33,
     name: "Blazer miroir",
     category: "pieces-uniques",
-    price: 90,
+    price: 150,
     unique: true,
     images: [
       "images/unique5-1.jpg",
