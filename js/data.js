@@ -178,7 +178,7 @@ const products = [
     ],
     description: "Cravate élégante avec motif contemporain, disponible en plusieurs exemplaires.",
     stock: {
-      "Standard": 5
+      "Standard": 1
     }
   },
   {
@@ -294,7 +294,7 @@ const products = [
     ],
     description: "Ce blazer a été pensé pour vous offrir une allure a la fois sophistiquée et audacieuse. Conçu pour celles qui aiment se démarquer. Taille 38",
     stock: {
-      "Unique": 1
+      "Unique": 0
     }
   },
   {
@@ -328,7 +328,7 @@ const products = [
     ],
     description: "Idéal pour un Evénement Chic, mariage, gala ,soirée élégante ou cérémonie. Sa coupe près du corps met parfaitement la silhouette en valeur, tandis que les détails raffinés apportent une touche de Glamour et d'Originalité. Décolleté travaillé avec transparence délicate. Dos élégant et sophistiqué. Détails brillants et finitions soignées. Tissu  agréable à porter. Une Robe Rare et Unique que vous ne verrez sur personne d'autre ! Parfaite pour se démarquer avec classe et assurance !",
     stock: {
-      "Unique": 0,
+      "Unique": 1
     }
   },
   {
