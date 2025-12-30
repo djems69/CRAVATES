@@ -466,9 +466,31 @@ function loadContactPage() {
           body: formData
         });
 
-        const result = await response.json();
+        // Vérifier si la réponse est valide
+        if (!response.ok) {
+          // Essayer de parser le JSON même en cas d'erreur
+          let errorMessage = 'Erreur lors de l\'envoi du message.';
+          try {
+            const errorResult = await response.json();
+            errorMessage = errorResult.message || errorMessage;
+          } catch (e) {
+            // Si le JSON ne peut pas être parsé, utiliser le message par défaut
+            errorMessage = `Erreur ${response.status}: ${response.statusText}`;
+          }
+          throw new Error(errorMessage);
+        }
 
-        if (response.ok && result.success) {
+        // Parser la réponse JSON
+        let result;
+        try {
+          const text = await response.text();
+          result = JSON.parse(text);
+        } catch (e) {
+          console.error('Erreur de parsing JSON:', e);
+          throw new Error('Réponse invalide du serveur. Veuillez réessayer.');
+        }
+
+        if (result.success) {
           if (statusDiv) {
             statusDiv.className = 'submit-status success';
             statusDiv.textContent = result.message || 'Merci pour votre message !';
@@ -478,6 +500,7 @@ function loadContactPage() {
           throw new Error(result.message || 'Erreur lors de l\'envoi du message.');
         }
       } catch (error) {
+        console.error('Erreur lors de l\'envoi du formulaire:', error);
         if (statusDiv) {
           statusDiv.className = 'submit-status error';
           statusDiv.textContent = error.message || 'Une erreur est survenue. Veuillez réessayer plus tard.';
