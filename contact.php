@@ -73,17 +73,15 @@ $mailSent = mail($toEmail, $emailSubject, $emailBody, $headers);
 restore_error_handler();
 
 // Vérifier le résultat
-// Sur Hostinger, mail() peut retourner false même si l'email est accepté et envoyé
-// On considère donc toujours comme un succès si aucune erreur PHP critique n'est détectée
 if ($mailSent) {
-    error_log("Email envoyé avec succès de $fromEmail vers $toEmail");
+    error_log("Email envoyé avec succès de $fromEmail vers $toEmail - Sujet: $emailSubject");
     
     echo json_encode([
         'success' => true,
         'message' => 'Merci pour votre message ! Nous vous répondrons rapidement.'
     ]);
 } else {
-    // Récupérer la dernière erreur pour vérifier s'il y a une erreur critique
+    // Récupérer la dernière erreur
     $lastError = error_get_last();
     $errorDetails = '';
     
@@ -95,26 +93,15 @@ if ($mailSent) {
         $errorDetails = $errorMessage;
     }
     
-    // Logger pour débogage
-    error_log("Tentative envoi email de $fromEmail vers $toEmail. mail() retourné: " . ($mailSent ? 'true' : 'false'));
+    // Logger l'erreur pour débogage
+    error_log("ÉCHEC envoi email de $fromEmail vers $toEmail. Erreur: $errorDetails");
     
-    // Sur Hostinger, même si mail() retourne false, l'email peut être accepté
-    // On considère donc comme un succès si la fonction mail() existe et a été appelée
-    // L'email sera traité par Hostinger même si la fonction retourne false
-    echo json_encode([
-        'success' => true,
-        'message' => 'Merci pour votre message ! Nous vous répondrons rapidement.'
-    ]);
-    
-    // Note: Si vous voulez être plus strict, décommentez le code ci-dessous
-    // et commentez les lignes au-dessus
-    /*
+    // Retourner une erreur si mail() retourne false
     http_response_code(500);
     echo json_encode([
         'success' => false,
-        'message' => 'Impossible d\'envoyer votre message. Veuillez nous contacter directement à ' . $toEmail
+        'message' => 'Impossible d\'envoyer votre message pour le moment. La fonction mail() a échoué. Veuillez vérifier la configuration email dans Hostinger ou nous contacter directement à ' . $toEmail
     ]);
-    */
 }
 
 
