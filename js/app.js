@@ -466,38 +466,27 @@ function loadContactPage() {
           body: formData
         });
 
-        // Vérifier si la réponse est valide
-        if (!response.ok) {
-          // Essayer de parser le JSON même en cas d'erreur
-          let errorMessage = 'Erreur lors de l\'envoi du message.';
-          try {
-            const errorResult = await response.json();
-            errorMessage = errorResult.message || errorMessage;
-          } catch (e) {
-            // Si le JSON ne peut pas être parsé, utiliser le message par défaut
-            errorMessage = `Erreur ${response.status}: ${response.statusText}`;
-          }
-          throw new Error(errorMessage);
-        }
-
         // Parser la réponse JSON
         let result;
         try {
           const text = await response.text();
           result = JSON.parse(text);
         } catch (e) {
-          console.error('Erreur de parsing JSON:', e);
+          console.error('Erreur de parsing JSON:', e, 'Réponse:', text);
           throw new Error('Réponse invalide du serveur. Veuillez réessayer.');
         }
 
-        if (result.success) {
+        // Vérifier le résultat
+        if (result && result.success) {
           if (statusDiv) {
             statusDiv.className = 'submit-status success';
             statusDiv.textContent = result.message || 'Merci pour votre message !';
           }
           form.reset();
         } else {
-          throw new Error(result.message || 'Erreur lors de l\'envoi du message.');
+          // Même si response.ok est false, on vérifie d'abord le JSON
+          const errorMessage = result?.message || `Erreur ${response.status}: ${response.statusText}`;
+          throw new Error(errorMessage);
         }
       } catch (error) {
         console.error('Erreur lors de l\'envoi du formulaire:', error);
