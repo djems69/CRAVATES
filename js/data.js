@@ -281,9 +281,9 @@ const products = [
   },
   {
     id: 34,
-    name: "Blazer modèle unique avec coupe asymetrique",
+    name: "Blazer avec coupe asymetrique",
     category: "pieces-uniques",
-    price: 90,
+    price: 150,
     unique: true,
     images: [
       "images/unique1-1.jpg",
@@ -298,44 +298,10 @@ const products = [
     }
   },
   {
-    id: 31,
-    name: "Sublime robe de soirée longue",
-    category: "pieces-uniques",
-    price: 90,
-    unique: true,
-    images: [
-      "images/unique2-1.jpg",
-      "images/unique2-2.jpg",
-      "images/unique2-3.jpg"
-    ],
-    description: "Modèle unique au design moderne et audacieux. Sa coupe asymétrique et ses jeux de matières apportent une allure élégante, glamour et résolument chic. Coupe près du corps qui sublime la silouhette. Détails brillants raffinés. Style haute élégance. Idéal pour une soirée d'exception! Une robe rare et unique, parfaite pour un gala, une cérémonie, un évènement chic ou une soirée habillée. Elle attire le regard et garantie une allure élégante et raffinée. Taille 38",
-    stock: {
-      "Unique": 1
-    }
-  },
-  {
-    id: 30,
-    name: "Sublime robe de soirée longue modèle unique",
-    category: "pieces-uniques",
-    price: 300,
-    unique: true,
-    images: [
-      "images/unique3-1.jpg",
-      "images/unique3-2.jpg",
-      "images/unique3-3.jpg",
-      "images/unique3-4.jpg",
-      "images/unique3-5.jpg"
-    ],
-    description: "Idéal pour un Evénement Chic, mariage, gala ,soirée élégante ou cérémonie. Sa coupe près du corps met parfaitement la silhouette en valeur, tandis que les détails raffinés apportent une touche de Glamour et d'Originalité. Décolleté travaillé avec transparence délicate. Dos élégant et sophistiqué. Détails brillants et finitions soignées. Tissu  agréable à porter. Une Robe Rare et Unique que vous ne verrez sur personne d'autre ! Parfaite pour se démarquer avec classe et assurance !",
-    stock: {
-      "Unique": 1
-    }
-  },
-  {
     id: 32,
-    name: "Blazer noir asymétrique exceptionnel!",
+    name: "Blazer noir",
     category: "pieces-uniques",
-    price: 150,
+    price: 250,
     unique: true,
     images: [
       "images/unique4-1.jpg",
@@ -351,7 +317,7 @@ const products = [
     id: 33,
     name: "Blazer miroir",
     category: "pieces-uniques",
-    price: 150,
+    price: 300,
     unique: true,
     images: [
       "images/unique5-1.jpg",
@@ -361,6 +327,40 @@ const products = [
     description: "Osez l'éclat avec ce blazer unique en son genre. Ce blazer noir élégant est réhaussé d'une manche ornée de triangles de miroirs scintillants, capturant la lumière et les regards à chaque mouvement. Un blazer noir en velours, classique, revisité avec une touche d'audace. Les triangles de miroirs sont soigneusement disposés sur une seule manche pour un effet spectaculaire! Pièce de collection : un vetement rare qui ne manquera pas de faire tourner les tetes!",
     stock: {  
       "Unique": 0
+    }
+  },
+  {
+    id: 31,
+    name: "Robe de soirée longue",
+    category: "pieces-uniques",
+    price: 90,
+    unique: true,
+    images: [
+      "images/unique2-1.jpg",
+      "images/unique2-2.jpg",
+      "images/unique2-3.jpg"
+    ],
+    description: "Modèle unique au design moderne et audacieux. Sa coupe asymétrique et ses jeux de matières apportent une allure élégante, glamour et résolument chic. Coupe près du corps qui sublime la silouhette. Détails brillants raffinés. Style haute élégance. Idéal pour une soirée d'exception! Une robe rare et unique, parfaite pour un gala, une cérémonie, un évènement chic ou une soirée habillée. Elle attire le regard et garantie une allure élégante et raffinée. Taille 38",
+    stock: {
+      "Unique": 1
+    }
+  },
+  {
+    id: 30,
+    name: "Robe de soirée longue",
+    category: "pieces-uniques",
+    price: 300,
+    unique: true,
+    images: [
+      "images/unique3-1.jpg",
+      "images/unique3-2.jpg",
+      "images/unique3-3.jpg",
+      "images/unique3-4.jpg",
+      "images/unique3-5.jpg"
+    ],
+    description: "Idéal pour un Evénement Chic, mariage, gala ,soirée élégante ou cérémonie. Sa coupe près du corps met parfaitement la silhouette en valeur, tandis que les détails raffinés apportent une touche de Glamour et d'Originalité. Décolleté travaillé avec transparence délicate. Dos élégant et sophistiqué. Détails brillants et finitions soignées. Tissu  agréable à porter. Une Robe Rare et Unique que vous ne verrez sur personne d'autre ! Parfaite pour se démarquer avec classe et assurance !",
+    stock: {
+      "Unique": 1
     }
   },
 ];
