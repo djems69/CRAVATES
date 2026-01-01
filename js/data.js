@@ -322,7 +322,8 @@ const products = [
     images: [
       "images/unique5-1.jpg",
       "images/unique5-2.jpg",
-      "images/unique5-3.jpg"
+      "images/unique5-3.jpg",
+      "images/unique5-4.jpg"
     ],
     description: "Osez l'éclat avec ce blazer unique en son genre. Ce blazer noir élégant est réhaussé d'une manche ornée de triangles de miroirs scintillants, capturant la lumière et les regards à chaque mouvement. Un blazer noir en velours, classique, revisité avec une touche d'audace. Les triangles de miroirs sont soigneusement disposés sur une seule manche pour un effet spectaculaire! Pièce de collection : un vetement rare qui ne manquera pas de faire tourner les tetes!",
     stock: {  
